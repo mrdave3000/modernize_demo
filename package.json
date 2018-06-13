@@ -15,7 +15,7 @@
     "eslint-config-google": "0.9.1"
   },
   "scripts": {
-    "start": "concurrent \"react-scripts start\" \"npm run styles\"",
+    "start": "concurrent \"PORT=4001 react-scripts start\" \"npm run styles\"",
     "styles": "node-sass --watch ./src/styles -o ./public/stylesheets/",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

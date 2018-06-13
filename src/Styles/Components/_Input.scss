@@ -1,0 +1,68 @@
+input {
+  border-radius: $global-radius;
+  border-color: $brand-base-grey-a;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.10), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+  box-sizing: border-box;
+  color: $brand-primary-grey;
+  font-size: $fontSizeSmaller;
+  font-weight: 100;
+  height: 50px;
+  margin: 10px 0;
+  padding: $global-padding-small;
+  position: relative;
+  width: 100%;
+  outline: 0;
+  @include animate();
+}
+
+.input--error {
+  border: solid 1px #D50303;
+}
+
+input::-webkit-input-placeholder,
+input::-moz-placeholder,
+input:-ms-input-placeholder,
+input:-moz-placeholder
+{ 
+  font-weight: 100;
+  color: $brand-base-grey-a;
+  text-transform: capitalize;
+}
+
+.button {
+  background: $brand-primary-orange;
+  border: 0;
+  border-radius: 5rem;
+  box-shadow: 0;
+  color: $light-paper;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 346px;
+  cursor: pointer;
+  @include animate();
+}
+.button--disabled {
+  background: $brand-base-grey-a;
+  border: 0;
+  border-radius: 5rem;
+  box-shadow: 0;
+  color: $light-paper;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 346px;
+  cursor: pointer;
+  @include animate();
+}
+
+.state {
+  width: 33%;
+  margin-left: 10px;
+}
+.city {
+  width:65%;
+}
+.float-form {
+  width: 100%;
+}

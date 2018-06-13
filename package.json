@@ -1,0 +1,24 @@
+{
+  "name": "modernize-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-sass": "4.7.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-input-mask": "2.0.2",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {
+    "concurrently": "^1.0.0",
+    "eslint": "4.19.1",
+    "eslint-config-google": "0.9.1"
+  },
+  "scripts": {
+    "start": "concurrent \"react-scripts start\" \"npm run styles\"",
+    "styles": "node-sass --watch ./src/styles -o ./public/stylesheets/",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

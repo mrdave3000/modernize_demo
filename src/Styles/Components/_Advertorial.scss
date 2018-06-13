@@ -1,0 +1,63 @@
+.Advertorial {
+  margin: $global-padding-small;
+  position: relative;
+  width: 405px;
+  border: solid 3px $brand-primary-green;
+  border-top-color: transparent;
+  
+  .content {
+    background: rgba(255,255,255,0.75);
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    margin: 20px;
+    padding: $global-padding-small;
+     h6 {
+      color: $brand-primary-green;
+      text-transform: uppercase;
+      font-size: $fontSizeTiny;
+      margin:0;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 100;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 100;
+    }
+    a {
+      text-decoration: none;
+      color: #6EB7C2;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+}
+.floating-text {
+    color: $brand-primary-grey;
+    position: relative;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: -25px;
+  }
+
+.Advertorial:after {
+  height: 3px;
+  width: 80px;
+  top: -3px;
+  left: -3px;
+  position: absolute;
+  background: $brand-primary-green;
+  content: " ";
+}
+.Advertorial:before {
+  height: 3px;
+  width: 80px;
+  right: -3px;
+  top: -3px;
+  position: absolute;
+  background: $brand-primary-green;
+  content: " ";
+} 

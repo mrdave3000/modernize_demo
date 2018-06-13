@@ -1,0 +1,16 @@
+@mixin app-body {
+  background: url('/images/bg_tile.png');
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.bg {
+  @include app-body();
+  background-color: $brand-base-light-a;
+}
+
+.bg--colored {
+  @include app-body();
+  background-color: $brand-base-light-b;
+}

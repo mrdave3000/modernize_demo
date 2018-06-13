@@ -1,0 +1,6 @@
+.Card {
+  background: $light-paper;
+  position: relative;
+  overflow: hidden;
+  @include shadow();
+}

@@ -1,0 +1,32 @@
+@media all and (min-width: 220px) and (max-width: 479px) {
+  .FormContainer,
+  .Advertorial {
+    width: 90%; }
+  .Formdata {
+    padding: 2rem 1.5em; }
+  .button,
+  .button--disabled {
+    width: 100%; }
+  .Layout {
+    margin-top: 90px; }
+  .state {
+    width: 100%;
+    margin-left: 0; }
+  .city {
+    width: 100%; } }
+
+@media all and (min-width: 480px) and (max-width: 639px) {
+  .FormContainer,
+  .Advertorial {
+    width: 90%; }
+  .Formdata {
+    padding: 2rem 1.5em; }
+  .button,
+  .button--disabled {
+    width: 100%; }
+  .Layout {
+    margin-top: 90px; }
+  .state {
+    width: 43%; }
+  .city {
+    width: 54%; } }

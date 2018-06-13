@@ -1,0 +1,12 @@
+.Header {
+  align-content: center;
+  background: $brand-primary-grey;
+  box-sizing: border-box;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+}
